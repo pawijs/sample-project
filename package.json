@@ -2,22 +2,22 @@
   "name": "sample-project",
   "private": true,
   "version": "0.0.0",
-  "description": "tuist usage example",
+  "description": "pawi usage example",
   "main": "index.js",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuist-org/sample-project.git"
+    "url": "https://github.com/pawijs/sample-project.git"
   },
   "scripts": {
     "build": "snowpack build",
     "serve": "cd src && snowpack dev"
   },
-  "author": "Maia Taewana <maia@tuist.org>",
+  "author": "Maia Taewana <maia@pawijs.org>",
   "license": "MIT",
   "dependencies": {
     "three": "^0.126.1",
-    "tuist": "next"
+    "pawi": "next"
   },
   "devDependencies": {
     "@snowpack/plugin-typescript": "^1.2.1",

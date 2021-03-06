@@ -1,5 +1,5 @@
 {
-  "type": "tuist",
+  "type": "pawi",
   "id": "1",
   "version": "1614981957698",
   "entry": "main",
@@ -18,7 +18,7 @@
       "id": "anim",
       "name": "anim.Loop",
       "content": {
-        "file": "lib/anim.Loop.tui.js"
+        "file": "lib/anim.Loop.awi.js"
       },
       "children": [
         "renderer"
@@ -28,7 +28,7 @@
       "id": "renderer",
       "name": "three.Renderer",
       "content": {
-        "file": "lib/three.WebGLRenderer.tui.js"
+        "file": "lib/three.WebGLRenderer.awi.js"
       },
       "children": [
         "scene"
@@ -38,7 +38,7 @@
       "id": "scene",
       "name": "three.Scene",
       "content": {
-        "file": "lib/three.Scene.tui.js"
+        "file": "lib/three.Scene.awi.js"
       },
       "children": [
         "mesh",
@@ -49,7 +49,7 @@
       "id": "mesh",
       "name": "three.Mesh",
       "content": {
-        "file": "lib/three.Mesh.tui.js"
+        "file": "lib/three.Mesh.awi.js"
       },
       "children": [
         "route"
@@ -59,7 +59,7 @@
       "id": "lights",
       "name": "three.Lights",
       "content": {
-        "file": "lib/three.Lights.tui.js"
+        "file": "lib/three.Lights.awi.js"
       },
       "children": []
     },
@@ -78,7 +78,7 @@
       "id": "now",
       "name": "now",
       "content": {
-        "file": "lib/three.Rotation.tui.js"
+        "file": "lib/three.Rotation.awi.js"
       },
       "children": [
         "nowX",
@@ -114,7 +114,7 @@
       "id": "sliders",
       "name": "sliders",
       "content": {
-        "file": "lib/three.Rotation.tui.js"
+        "file": "lib/three.Rotation.awi.js"
       },
       "children": [
         "sliderX",

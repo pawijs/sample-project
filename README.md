@@ -1,6 +1,6 @@
-# Tuist examples
+# Pawi sample project
 
-Sample graphs for testing and development.
+Sample project. Do not forget to install vscode extension :-)
 
 Some information on the project on [dev.to](https://dev.to/maia_tae/visual-live-coding-proof-of-concept-1o7l)
 

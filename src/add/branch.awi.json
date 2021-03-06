@@ -1,5 +1,5 @@
 {
-  "type": "tuist",
+  "type": "pawi",
   "id": "1",
   "version": "1",
   "entry": "main",
@@ -11,7 +11,8 @@
         "file": "main.js"
       },
       "children": [
-        "child1", "child2"
+        "child1",
+        "child2"
       ]
     },
     "child1": {
@@ -20,8 +21,7 @@
       "content": {
         "file": "child1.js"
       },
-      "children": [
-      ]
+      "children": []
     },
     "child2": {
       "id": "child2",
@@ -29,8 +29,7 @@
       "content": {
         "file": "child2.js"
       },
-      "children": [
-      ]
+      "children": []
     }
   }
 }
