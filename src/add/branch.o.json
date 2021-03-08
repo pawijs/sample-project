@@ -8,7 +8,7 @@
       "id": "main",
       "name": "main",
       "content": {
-        "file": "main.js"
+        "file": "./main.js"
       },
       "children": [
         "child1",
@@ -19,7 +19,7 @@
       "id": "child1",
       "name": "child.1",
       "content": {
-        "file": "child1.js"
+        "file": "./child1.js"
       },
       "children": []
     },
@@ -27,7 +27,7 @@
       "id": "child2",
       "name": "child.2",
       "content": {
-        "file": "child2.js"
+        "file": "./child2.js"
       },
       "children": []
     }

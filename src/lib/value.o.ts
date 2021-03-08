@@ -1,4 +1,4 @@
-import { Value } from './context'
+import { Value } from './types'
 
 export function update(): Value {
   return {

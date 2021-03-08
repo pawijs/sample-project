@@ -1,14 +1,14 @@
 {
   "type": "pawi",
   "id": "1",
-  "version": "1614981957698",
+  "version": "1",
   "entry": "main",
   "blocks": {
     "main": {
       "id": "main",
       "name": "main",
       "content": {
-        "file": "main.js"
+        "file": "./main.js"
       },
       "children": [
         "anim"
@@ -18,7 +18,7 @@
       "id": "anim",
       "name": "anim.Loop",
       "content": {
-        "file": "lib/anim.Loop.awi.js"
+        "file": "@pawi/base/dist/anim.Loop.o.js"
       },
       "children": [
         "renderer"
@@ -28,7 +28,7 @@
       "id": "renderer",
       "name": "three.Renderer",
       "content": {
-        "file": "lib/three.WebGLRenderer.awi.js"
+        "file": "@pawi/three/dist/three.WebGLRenderer.o.js"
       },
       "children": [
         "scene"
@@ -38,7 +38,7 @@
       "id": "scene",
       "name": "three.Scene",
       "content": {
-        "file": "lib/three.Scene.awi.js"
+        "file": "@pawi/three/dist/three.Scene.o.js"
       },
       "children": [
         "mesh",
@@ -49,7 +49,7 @@
       "id": "mesh",
       "name": "three.Mesh",
       "content": {
-        "file": "lib/three.Mesh.awi.js"
+        "file": "@pawi/three/dist/three.Mesh.o.js"
       },
       "children": [
         "route"
@@ -59,7 +59,7 @@
       "id": "lights",
       "name": "three.Lights",
       "content": {
-        "file": "lib/three.Lights.awi.js"
+        "file": "@pawi/three/dist/three.Lights.o.js"
       },
       "children": []
     },
@@ -67,7 +67,7 @@
       "id": "route",
       "name": "route",
       "content": {
-        "file": "route.js"
+        "file": "./route.js"
       },
       "children": [
         "now",
@@ -78,7 +78,7 @@
       "id": "now",
       "name": "now",
       "content": {
-        "file": "lib/three.Rotation.awi.js"
+        "file": "@pawi/three/dist/three.Rotation.o.js"
       },
       "children": [
         "nowX",
@@ -91,7 +91,7 @@
       "name": "now.x",
       "children": [],
       "content": {
-        "file": "nowX.js"
+        "file": "./nowX.js"
       }
     },
     "nowY": {
@@ -99,7 +99,7 @@
       "name": "now.y",
       "children": [],
       "content": {
-        "file": "nowY.js"
+        "file": "./nowY.js"
       }
     },
     "nowZ": {
@@ -107,14 +107,14 @@
       "name": "now.z",
       "children": [],
       "content": {
-        "file": "nowZ.js"
+        "file": "./nowZ.js"
       }
     },
     "sliders": {
       "id": "sliders",
       "name": "sliders",
       "content": {
-        "file": "lib/three.Rotation.awi.js"
+        "file": "@pawi/three/dist/three.Rotation.o.js"
       },
       "children": [
         "sliderX",
@@ -127,7 +127,7 @@
       "name": "slider.x",
       "children": [],
       "content": {
-        "file": "sliderX.js"
+        "file": "./sliderX.js"
       }
     },
     "sliderY": {
@@ -135,7 +135,7 @@
       "name": "slider.y",
       "children": [],
       "content": {
-        "file": "sliderY.js"
+        "file": "./sliderY.js"
       }
     },
     "sliderZ": {
@@ -143,7 +143,7 @@
       "name": "slider.z",
       "children": [],
       "content": {
-        "file": "sliderZ.js"
+        "file": "./sliderZ.js"
       }
     }
   }
