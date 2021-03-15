@@ -26,6 +26,7 @@
     "@types/webmidi": "^2.0.4",
     "esm": "^3.2.25",
     "snowpack": "^3.0.13",
+    "snowpack-pawi": "next",
     "typescript": "^4.1.5"
   }
 }

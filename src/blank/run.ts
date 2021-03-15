@@ -1,12 +1,7 @@
-import { projectLoader, simpleLoader } from 'pawi'
+import { run } from 'pawi'
 import * as three from 'three'
-import { ContextTypes } from '../lib/context'
+import { Context } from '../lib/types'
 
-async function run() {
-  const { loader } = simpleLoader()
-  const load = projectLoader<ContextTypes>(loader)
-  const update = await load('.', { THREE: three })
-  update()
-}
-
-run()
+// We ensure the initial context we are passing respects our
+// Context definition.
+run<Context>('.', { THREE: three })

@@ -1,11 +1,11 @@
-import { branchLoader, simpleLoader } from 'pawi'
-import { ContextTypes } from '../lib/context'
+import { loadBranch } from 'pawi'
+import { Context } from '../lib/types'
 
 async function run() {
-  const { loader } = simpleLoader()
-  const loadBranch = branchLoader<ContextTypes>(loader)
   async function relink() {
-    const { value } = await loadBranch('.')
+    // This could go in the 'main' block but we are showing it
+    // here to expose how a branch can be called from outside.
+    const { value } = await loadBranch<Context>('.')
     const el = document.querySelector('#screen')
     if (el) {
       el.innerHTML = `<h1>${value.number!()}</h1>`

@@ -1,16 +1,94 @@
 {
   "type": "pawi",
   "id": "1",
-  "version": "1",
+  "version": "AFT9_e",
   "entry": "main",
   "blocks": {
+    "dRSAhB": {
+      "id": "dRSAhB",
+      "children": [],
+      "name": "test",
+      "content": {
+        "file": "./test.o.js"
+      }
+    },
+    "T4oTZf": {
+      "id": "T4oTZf",
+      "children": [
+        "dRSAhB",
+        "KHXOD2"
+      ],
+      "name": "three.Rotation",
+      "content": {
+        "file": "@pawi/three/dist/three.Rotation.o.js"
+      }
+    },
+    "4gIji8": {
+      "id": "4gIji8",
+      "children": [
+        "T4oTZf"
+      ],
+      "name": "three.Mesh",
+      "content": {
+        "file": "@pawi/three/dist/three.Mesh.o.js"
+      }
+    },
+    "9uRNuI": {
+      "id": "9uRNuI",
+      "children": [],
+      "name": "three.Lights",
+      "content": {
+        "file": "@pawi/three/dist/three.Lights.o.js"
+      }
+    },
+    "Zh2h76": {
+      "id": "Zh2h76",
+      "children": [
+        "4gIji8",
+        "9uRNuI"
+      ],
+      "name": "three.Scene",
+      "content": {
+        "file": "@pawi/three/dist/three.Scene.o.js"
+      }
+    },
+    "tZP8GM": {
+      "id": "tZP8GM",
+      "children": [
+        "Zh2h76"
+      ],
+      "name": "three.WebGLRenderer",
+      "content": {
+        "file": "@pawi/three/dist/three.WebGLRenderer.o.js"
+      }
+    },
+    "Vn7WZE": {
+      "id": "Vn7WZE",
+      "children": [
+        "tZP8GM"
+      ],
+      "name": "anim.Loop",
+      "content": {
+        "file": "@pawi/base/dist/anim.Loop.o.js"
+      }
+    },
     "main": {
       "id": "main",
       "name": "main",
       "content": {
         "file": "./main.js"
       },
-      "children": []
+      "children": [
+        "Vn7WZE"
+      ]
+    },
+    "KHXOD2": {
+      "id": "KHXOD2",
+      "children": [],
+      "name": "test",
+      "content": {
+        "file": "./test.o.js"
+      }
     }
   }
 }
