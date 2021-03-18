@@ -1,4 +1,4 @@
-import { Value } from '../lib/types'
+import { Value } from 'pawi.types'
 
 export function link(): Value {
   const el = document.querySelector('#sliderX') as HTMLInputElement

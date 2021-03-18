@@ -1,4 +1,4 @@
-import { Arg, Value } from '../lib/types'
+import { Arg, Value } from 'pawi.types'
 
 export function link({ number: x }: Arg, { number: y }: Arg): Value {
   if (!x || !y) {

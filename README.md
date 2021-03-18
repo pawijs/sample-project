@@ -14,7 +14,7 @@ The examples are in `src`.
 
 ```sh
 npm install
-npm run serve
+npm run start
 ```
 
 Open http://127.0.0.1:8080 in **a modern browser** (tested on Google Chrome 88 and Safari 14.0).

@@ -1,7 +1,6 @@
-import { Block, Context } from '../lib/types'
+import { Block, Context } from 'pawi.types'
 
 export async function init({ time, cache }: Context): Block {
-  console.log('nowX INIT')
   // This is a solution to create smooth "continuous" values on
   // code reload without jumps that would happen with scaling the
   // timeline (`time.now * [value]`).

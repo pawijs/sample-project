@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "alwaysStrict": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "declaration": false,
     "esModuleInterop": true,
     "lib": [
@@ -28,7 +28,12 @@
       {
         "transform": "@pawi/transform"
       }
-    ]
+    ],
+    "paths": {
+      "pawi.types": [
+        "src/pawi.types"
+      ]
+    }
   },
   "include": [
     "./src/**/*"

@@ -1,5 +1,5 @@
 import { loadBranch } from 'pawi'
-import { Context } from '../lib/types'
+import { Context } from 'pawi.types'
 
 async function run() {
   async function relink() {

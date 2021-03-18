@@ -1,4 +1,4 @@
-import { Block, Context } from '../lib/types'
+import { Block, Context } from 'pawi.types'
 
 export async function init({ time, cache }: Context): Block {
   // This is a solution to create smooth "continuous" values on
