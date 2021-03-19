@@ -1,15 +1,14 @@
 export const branch = `{
   "type": "pawi",
   "id": "1",
-  "version": "NVEpBW",
+  "version": "Wr2YNW",
   "entry": "main",
   "blocks": {
-    "CPw5DI": {
-      "id": "CPw5DI",
+    "YVECfV": {
+      "id": "YVECfV",
       "children": [],
       "name": "nowX",
       "content": {
-        "name": "./nowX",
         "file": "./nowX.o.js"
       }
     },
@@ -18,7 +17,6 @@ export const branch = `{
       "children": [],
       "name": "nowY",
       "content": {
-        "name": "./nowY",
         "file": "./nowY.o.js"
       }
     },
@@ -27,20 +25,18 @@ export const branch = `{
       "children": [],
       "name": "nowZ",
       "content": {
-        "name": "./nowZ",
         "file": "./nowZ.o.js"
       }
     },
     "FVBmYT": {
       "id": "FVBmYT",
       "children": [
-        "CPw5DI",
+        "YVECfV",
         "_BWAKQ",
         "B-kIUD"
       ],
       "name": "three.Rotation",
       "content": {
-        "name": "three.Rotation",
         "file": "@pawi/three/dist/three.Rotation.o.js"
       }
     },
@@ -59,7 +55,6 @@ export const branch = `{
       "children": [],
       "name": "sliderX",
       "content": {
-        "name": "./sliderX",
         "file": "./sliderX.o.js"
       }
     },
@@ -68,7 +63,6 @@ export const branch = `{
       "children": [],
       "name": "sliderY",
       "content": {
-        "name": "./sliderY",
         "file": "./sliderY.o.js"
       }
     },
@@ -77,7 +71,6 @@ export const branch = `{
       "children": [],
       "name": "sliderZ",
       "content": {
-        "name": "./sliderZ",
         "file": "./sliderZ.o.js"
       }
     },
@@ -90,7 +83,6 @@ export const branch = `{
       ],
       "name": "three.Rotation",
       "content": {
-        "name": "three.Rotation",
         "file": "@pawi/three/dist/three.Rotation.o.js"
       }
     },
@@ -112,7 +104,6 @@ export const branch = `{
       ],
       "name": "route",
       "content": {
-        "name": "./route",
         "file": "./route.o.js"
       }
     },
@@ -123,19 +114,18 @@ export const branch = `{
       ],
       "name": "three.Mesh",
       "content": {
-        "name": "three.Mesh",
         "file": "@pawi/three/dist/three.Mesh.o.js"
-      }
+      },
+      "closed": true
     },
     "0HBeXL": {
       "id": "0HBeXL",
       "children": [
         "2LMhtn",
-        "7RjjfO"
+        "veiAPE"
       ],
       "name": "three.Scene",
       "content": {
-        "name": "three.Scene",
         "file": "@pawi/three/dist/three.Scene.o.js"
       }
     },
@@ -146,9 +136,9 @@ export const branch = `{
       ],
       "name": "three.WebGLRenderer",
       "content": {
-        "name": "three.WebGLRenderer",
         "file": "@pawi/three/dist/three.WebGLRenderer.o.js"
-      }
+      },
+      "closed": false
     },
     "MyA8Qk": {
       "id": "MyA8Qk",
@@ -157,7 +147,6 @@ export const branch = `{
       ],
       "name": "anim.Loop",
       "content": {
-        "name": "anim.Loop",
         "file": "@pawi/base/dist/anim.Loop.o.js"
       }
     },
@@ -171,12 +160,11 @@ export const branch = `{
         "MyA8Qk"
       ]
     },
-    "7RjjfO": {
-      "id": "7RjjfO",
+    "veiAPE": {
+      "id": "veiAPE",
       "children": [],
       "name": "three.Lights",
       "content": {
-        "name": "three.Lights",
         "file": "@pawi/three/dist/three.Lights.o.js"
       }
     }

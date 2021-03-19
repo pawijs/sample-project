@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "snowpack build",
-    "start": "snowpack dev"
+    "serve": "snowpack dev"
   },
   "author": "Maia Taewana <maia@pawijs.org>",
   "license": "MIT",
